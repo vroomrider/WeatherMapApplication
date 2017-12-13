@@ -24929,20 +24929,27 @@
 	    'div',
 	    null,
 	    React.createElement(
-	      'h2',
+	      'h6',
 	      null,
 	      'Nav Component'
+	    ),
+	    React.createElement(
+	      'h2',
+	      null,
+	      'Weather Map'
 	    ),
 	    React.createElement(
 	      IndexLink,
 	      { to: '/', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
 	      'Get Weather'
 	    ),
+	    '\u2003\u2003',
 	    React.createElement(
 	      Link,
 	      { to: '/about', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
 	      'About'
 	    ),
+	    '\u2003\u2003',
 	    React.createElement(
 	      Link,
 	      { to: '/examples', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
@@ -26704,13 +26711,9 @@
 	      'About Props'
 	    ),
 	    React.createElement(
-	      'marquee',
+	      'p',
 	      null,
-	      React.createElement(
-	        'p',
-	        null,
-	        ' This is a About Page for the Application'
-	      )
+	      ' This is a About Page for the Application'
 	    )
 	  );
 	};
