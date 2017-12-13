@@ -26715,7 +26715,11 @@
 	  return React.createElement(
 	    'div',
 	    null,
-	    ' Examples are currently not available! '
+	    React.createElement(
+	      'h2',
+	      null,
+	      'Examples are currently available!'
+	    )
 	  );
 	};
 
