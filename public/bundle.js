@@ -24875,13 +24875,26 @@
 	  return React.createElement(
 	    'div',
 	    null,
-	    React.createElement(Nav, null),
 	    React.createElement(
-	      'h2',
+	      'center',
 	      null,
-	      'Master Component'
-	    ),
-	    props.children
+	      React.createElement(Nav, null),
+	      React.createElement(
+	        'center',
+	        null,
+	        React.createElement(
+	          'h2',
+	          null,
+	          'Master Component'
+	        ),
+	        props.children,
+	        React.createElement(
+	          'marquee',
+	          null,
+	          'Copy Rights Incorporated! @Author - vroomrider'
+	        )
+	      )
+	    )
 	  );
 	};
 	module.exports = Main;

@@ -17,9 +17,14 @@ var Nav = require('Nav');
 var Main = (props) => {
   return (
     <div >
+      <center>
       <Nav/>
-      <h2>Master Component</h2>
-      {props.children}
+      <center>
+        <h2>Master Component</h2>
+        {props.children}
+        <marquee>Copy Rights Incorporated! @Author - vroomrider</marquee>
+      </center>
+      </center>
     </div>
   );
 }
