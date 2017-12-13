@@ -14,6 +14,7 @@ var About = (props) => {
   return (
     <div>
       <h2>About Props</h2>
+      <marquee><p> This is a About Page for the Application</p></marquee>
     </div>
   );
 }

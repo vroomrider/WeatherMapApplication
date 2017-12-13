@@ -24879,7 +24879,7 @@
 	    React.createElement(
 	      'h2',
 	      null,
-	      'Main Component'
+	      'Master Component'
 	    ),
 	    props.children
 	  );
@@ -26689,6 +26689,15 @@
 	      'h2',
 	      null,
 	      'About Props'
+	    ),
+	    React.createElement(
+	      'marquee',
+	      null,
+	      React.createElement(
+	        'p',
+	        null,
+	        ' This is a About Page for the Application'
+	      )
 	    )
 	  );
 	};
